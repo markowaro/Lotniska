@@ -74,9 +74,10 @@ namespace Lotniska1
         {
             try
             {
-                string filePath = "C:/Users/szymo/Desktop/studia/Semestr IV/Programowanie Wizualne/Lotniska/Lotniska1/Lotniska1/Dane-Testowe.csv";
+                string fileName = "Dane-Testowe.csv";
+                //string filePath = "C:/Users/szymo/Desktop/studia/Semestr IV/Programowanie Wizualne/Lotniska/Lotniska1/Lotniska1/Dane-Testowe.csv";
 
-                using (StreamReader reader = new StreamReader(filePath))
+                using (StreamReader reader = new StreamReader(fileName))
                 {
                     string line;
                     bool isFirstLine = true;
