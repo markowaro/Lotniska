@@ -17,11 +17,10 @@ namespace Lotniska1
 
         private void ReadDataFromCSV(List <AirportData>airportDataList)
         {
-
-            string filePath = "C:/Users/szymo/Desktop/studia/Semestr IV/Programowanie Wizualne/Lotniska/Lotniska1/Lotniska1/Dane-Testowe.csv";
+            string fileName = "Dane-Testowe.csv";
             try
             {
-                using (StreamReader reader = new StreamReader(filePath))
+                using (StreamReader reader = new StreamReader(fileName))
                 {
                     string line;
                     bool firstLine = true;
